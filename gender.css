@@ -89,11 +89,35 @@
 	background-color: white;
 	color:#ce0058; 
 }
-
+/* full image section*/
+.fullimage{
+	height: 450px;
+	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083440/ngo1.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.greenhead{
+	position: absolute;
+	height: 450px;
+	width: 25%;
+	left: 12%;
+	background-color: #a9cf06;
+	opacity: 0.9;
+	top: 0;
+	color: white;
+	padding: 10px 20px;
+}
+.greenhead h3{
+	font-size: 28px;
+}
+.greenhead p{
+	font-size: 22px;
+}
 /*Section starts and header ends*/
 .wrapper{
 	min-height: 400px;
-	margin: 25px 0;
+	padding: 50px 0;
 }
 .wrapper .container-fluid{
 	padding-left: 60px;
@@ -103,7 +127,7 @@
 	color:#340b39;
 	background-color: whitesmoke;
 }
-.sectionone h1{
+.sectionone .section-title{
 	font-size: 45px;
 }
 .para{
@@ -111,15 +135,68 @@
 	margin:25px 0;
 	font-size: 24px;
 }
-.white{
-	height: 50px;
-    margin-top: 40px;
-    color: #340b39;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: center;
+.section3{
+	margin-top: 0;
+	padding-top: 30px;
 }
+.text{
+    font-size: 32px;
+    color: white;
+}
+.text-left{
+	font-size: 20px;
+    color: white;
+}
+.text-left h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.section .btn{
+	display: block;
+	text-transform: uppercase;
+	background: none;
+	border:1px solid white;
+	border-right: transparent;
+	margin-top: 25px;
+	border-radius: 0;
+	transition: 0.3s;
+	position: relative;
+}
+.section .btn:before{
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 18px;
+	background-color: white;
+	left: 102%;
+	transform: rotate(-20deg); 
+	top: -2%;
+}
+.section .btn::after{
+	content: '';
+	left: 102%;
+	margin-top: 9px;
+	height: 18px;
+	background-color: white;
+	position: absolute;
+	width: 1px;
+	transform: rotate(20deg);
+}
+.section .btn:focus,.section .btn:hover{
+	padding-right: 30px;
+	transition: 0.3s;
+	color:white;
+}
+.violet-font,.violet-font .text-left{
+	color:#403a60; 
+}
+.violet-font .btn{
+	border-color:#403a60;
+}
+.violet-font .btn::before,.violet-font .btn::after{
+	background-color: #403a60;
+}
+
 /*-----form section------*/
 .formsection{
 	background-color: deepskyblue;
