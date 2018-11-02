@@ -1,6 +1,7 @@
 *{
 	margin:0 auto;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 .row{
 	margin:0;
@@ -139,6 +140,13 @@
 	margin-top: 0;
 	padding-top: 30px;
 }
+.section2-text{
+	width: 40%;
+    text-align: center;
+}
+.section2-text a{
+	color:#403a60; 
+}
 .text{
     font-size: 32px;
     color: white;
@@ -210,7 +218,51 @@
 	left: 20%;
 	background-repeat: no-repeat;
 }
-
+.impact-card div{
+	font-size: 80px;
+    color: #36c4f4;
+}
+.impact-card div span{
+	font-size: 60px;
+}
+.impact-card p{
+	font-size: 25px;
+	font-size: 20px;
+    text-align: center;
+}
+.image-card .col-lg-6{
+	padding-left:0;
+}
+.color-part{
+	height: 250px;
+	padding: 10px;
+	color: #403a60;
+}
+.color-part p{
+	font-size: 18px;
+}
+.color-part span{
+	display: block;
+    margin-top: 50%;
+    font-size: 17px;
+}
+.img-part{
+	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083440/ngo1.jpg");
+	height: 250px;
+	width: 400px;
+	background-size: cover;
+}
+.img-2{
+	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083441/ngo2.jpg");
+}
+.image7{
+	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083441/ngo2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 70%;
+	margin-left: 0;
+	height: 180px;
+}
 /*-----form section------*/
 .formsection{
 	background-color: deepskyblue;
