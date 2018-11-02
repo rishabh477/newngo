@@ -1,0 +1,239 @@
+*{
+	margin:0 auto;
+	padding: 0;
+}
+.row{
+	margin:0;
+	padding: 0;
+}
+.space{
+	height: 50px;
+}
+.affix{
+	position: fixed;
+	background-color: white;
+	top: 0;
+	width: 100%;
+	z-index: 10 !important;
+	box-shadow: 1px 1px 1px gray;
+	transition: 0.5s;
+}
+.navbar{
+	margin: 0;
+}
+.navbar-brand{
+	color:#ce0058;
+	padding: 0 25px;
+	height: auto;
+}
+.navbar-brand .fa{
+	font-size: 50px;
+    color: #ce0058;
+}
+.fa{
+	display: block;
+	margin-left: 10px;
+}
+.banner .navbar-right li{
+    background-color: #ce0058;
+    color: white;
+    cursor: pointer;
+}
+.navbar-right li a{
+	padding: 20px 16px ;
+	color: white;
+}
+.firstnav li{
+	padding: 20px 16px;
+	color:#ce0058;
+}
+.banner .navbar-right li a:visited{
+    background-color:#403a60;
+}
+.banner .navbar-right li a:hover,.banner .navbar-right li:hover{
+    background-color:#403a60;
+}
+.banner .firstnav >li:hover,.firstnav li .dropdown .btn:hover{
+	background-color:#ce0058;
+	color: black;
+}
+.banner .firstnav li:hover .dropdown-menu{
+	display: block;
+}
+.navbar-toggle{
+	background-color:#ce0058; 
+}
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+.banner .firstnav li .dropdown .btn{
+	border:none;
+	background: none;
+	padding:0;
+	padding-top: 12px;
+}
+.dropdown-menu{
+	padding: 0;
+	margin-top: 22px;
+}
+.dropdown-menu li{
+	padding: 0;
+}
+.dropdown-menu li a{
+	padding: 16px 16px;
+    background-color:#ce0058;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.dropdown-menu li a:focus,.dropdown-menu li a:hover{
+	background-color: white;
+	color:#ce0058; 
+}
+
+/*Section starts and header ends*/
+.wrapper{
+	min-height: 400px;
+	margin: 25px 0;
+}
+.wrapper .container-fluid{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.sectionone{
+	color:#340b39;
+	background-color: whitesmoke;
+}
+.sectionone h1{
+	font-size: 45px;
+}
+.para{
+	width: 70%;
+	margin:25px 0;
+	font-size: 24px;
+}
+.white{
+	height: 50px;
+    margin-top: 40px;
+    color: #340b39;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*-----form section------*/
+.formsection{
+	background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.formsection p{
+	font-size: 20px;
+}
+.formsection input[type=text],input[type=email]{
+	padding: 6px;
+	border:transparent;
+	margin-left: 10px;
+	border-radius: 4px;
+}
+.formsection .btn{
+	display: inline-block;
+	margin: auto;
+	margin-left: 25px;
+}
+
+/*---------Footer Section-----------*/
+.footer{
+	background-color:#403a60;
+    color: white;
+}
+.header{
+	padding:10px 0;
+	position: relative;  
+}
+.header::after{
+	content: '';
+	display: block;
+	border-bottom: 1px solid #500abd;
+    box-shadow: 1px 1px 1px #3d0b8b;
+	margin-top: 10px;
+	width: 60%;
+}
+.footlist{
+	list-style-type: none;
+}
+.footlist li a{
+	color: white;
+	padding-top: 10px;
+}
+.footlist li a:hover,.footlist li a:focus{
+	color:#1184b3;;
+}
+input[type=submit]{
+	display: block;
+    margin-top: 10px;
+    background-color: #ce0058;
+    border: none;
+}
+input[type=submit]:hover,input[type=submit]:focus{
+	background-color:#1184b3; 
+}
+.footer input[type=email]{
+    background-color: transparent;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.address{
+	margin-top: 25px;
+}
+.foot{
+	margin-top: 10px;
+    margin-left: 0px;
+}
+.orange{
+	color: #ce0058;
+}
+.scrollbtn{
+	display: none;
+	padding: 16px 20px;
+	background-color:#ce0058;
+	font-size: 22px;
+	border-radius:25px;
+	border: none;
+    box-shadow: 1px 1px 1px grey;  
+	position: fixed;
+	display:block;
+	bottom: 10px;
+	right: 20px;
+	color: white;
+}
+.scrollbtn:hover,.scrollbtn:focus{
+background-color: #403a60;
+border:none;
+outline:none;
+}
+.scrollbtn .fa{
+margin: 0;
+}
+
+/*------Media Query starts----------*/
+@media screen and (max-width: 992px){
+	.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+	    display: block!important;
+	    height: auto!important;
+	    padding-bottom: 0;
+	    overflow: visible!important;
+	}
+
+	.navbar-header .collapse, .navbar-toggle {
+	    display: block !important;
+	}
+}
+@media screen and (max-width: 768px){
+	input{margin-top: 20px;margin-left:auto;}
+	.formsection .btn{width: 100%;margin-top: 25px;margin-left: auto;}
+}
