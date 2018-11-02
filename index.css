@@ -117,7 +117,6 @@
     margin-top: 40px;
     color: #340b39;
     font-size: 24px;
-    font-weight: bold;
     text-transform: capitalize;
     text-align: center;
 }
@@ -154,7 +153,7 @@
     color: white;
 }
 .text-left{
-	font-size: 20px;
+	font-size: 18px;
     margin-right: 30px;
     width: 65%;
     padding-top: 20px;
@@ -242,8 +241,7 @@
 .header::after{
 	content: '';
 	display: block;
-	border-bottom: 1px solid #500abd;
-    box-shadow: 1px 1px 1px #3d0b8b;
+	border-bottom: 1px solid white;
 	margin-top: 10px;
 	width: 60%;
 }

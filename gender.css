@@ -196,6 +196,20 @@
 .violet-font .btn::before,.violet-font .btn::after{
 	background-color: #403a60;
 }
+.section4 .col-lg-7{
+	position: relative;
+	z-index: 1;
+}
+.image-equal{
+	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083440/ngo1.jpg");
+	width: 50%;
+	z-index: 10 !important;
+	position: absolute;
+	height: 500px;
+	top: 0;
+	left: 20%;
+	background-repeat: no-repeat;
+}
 
 /*-----form section------*/
 .formsection{
