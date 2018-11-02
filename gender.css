@@ -245,8 +245,7 @@
 .header::after{
 	content: '';
 	display: block;
-	border-bottom: 1px solid #500abd;
-    box-shadow: 1px 1px 1px #3d0b8b;
+	border-bottom: 1px solid white;
 	margin-top: 10px;
 	width: 60%;
 }
