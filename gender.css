@@ -218,7 +218,7 @@
 	left: 20%;
 	background-repeat: no-repeat;
 }
-.impact-card div{
+.impact-card .impact-quantity{
 	font-size: 80px;
 	font-weight: 300;
     color: #36c4f4;
@@ -244,13 +244,12 @@
 }
 .color-part span{
 	display: block;
-    margin-top: 50%;
+    margin-top: 140px;
     font-size: 17px;
 }
 .img-part{
 	background-image: url("https://res.cloudinary.com/cloudraj/image/upload/v1541083440/ngo1.jpg");
 	height: 250px;
-	width: 400px;
 	background-size: cover;
 }
 .img-2{
@@ -376,7 +375,15 @@ margin: 0;
 	    display: block !important;
 	}
 }
+@media screen and (max-width: 992px){
+	.greenhead{width: 30%;padding: 0;}
+	.greenhead h3{font-size: 24px;}
+	.greenhead p{font-size: 20px;}
+	.section2-text{text-align: left;margin-left:0;}
+	.image-equal{position: relative;width: 100%;left: 0;top: 50px;}
+	.impact-card p{text-align:left;}
+}
 @media screen and (max-width: 768px){
-	input{margin-top: 20px;margin-left:auto;}
+	.formsection input[type=text],input[type=email]{margin-top: 20px;margin-left:0;}
 	.formsection .btn{width: 100%;margin-top: 25px;margin-left: auto;}
 }
