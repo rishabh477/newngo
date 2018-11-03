@@ -102,7 +102,7 @@
 .greenhead{
 	position: absolute;
 	height: 450px;
-	width: 300px;
+	width: 25%;
 	left: 12%;
 	background-color: #a9cf06;
 	opacity: 0.9;
@@ -111,10 +111,10 @@
 	padding-left:20px;
 }
 .greenhead h3{
-	font-size: 25px;
+	font-size: 2vw;
 }
 .greenhead p{
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 /*Section starts and header ends*/
 .wrapper{
@@ -380,8 +380,16 @@ margin: 0;
 	.section2-text{text-align: left;margin-left:0;}
 	.image-equal{position: relative;width: 100%;left: 0;top: 50px;}
 	.impact-card p{text-align:left;}
+	.greenhead h3{font-size: 2.5vw;}
+	.greenhead p{font-size: 2vw;}
 }
 @media screen and (max-width: 768px){
 	.formsection input[type=text],input[type=email]{margin-top: 20px;margin-left:0;}
 	.formsection .btn{width: 100%;margin-top: 25px;margin-left: auto;}
+	video{height:50vw;width: 50vw;}
+	.greenhead{width: 30%;padding: 0;}
+}
+@media screen and (max-width: 500px){
+	.greenhead h3{font-size: 3.5vw;}
+	.greenhead p{font-size: 3vw;}
 }
