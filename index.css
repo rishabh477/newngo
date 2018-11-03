@@ -57,7 +57,7 @@
 }
 .banner .firstnav >li:hover,.firstnav li .dropdown .btn:hover{
 	background-color:#ce0058;
-	color: black;
+	color: white;
 }
 .banner .firstnav li:hover .dropdown-menu{
 	display: block;
