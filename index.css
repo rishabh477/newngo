@@ -305,6 +305,9 @@ outline:none;
 margin: 0;
 }
 @media screen and (max-width: 992px){
+	.white{text-align: left;}
+	.text-left{margin-left: 10px;margin-right: 0;}
+
 	.navbar-collapse.collapse{
 		display: none !important;
 	}
