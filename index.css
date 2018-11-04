@@ -305,10 +305,18 @@ outline:none;
 .scrollbtn .fa{
 margin: 0;
 }
+@media screen and (max-width: 1035px) and (min-width: 992px){
+	.navbar-right li a{padding:20px 12px;}
+	.banner .container-fluid{margin: 0;padding: 0;}
+
+}
 @media screen and (max-width: 992px){
 	.white{text-align: left;}
 	.text-left{margin-left: 10px;margin-right: 0;}
 	.navbar-header{width: 100%;}
+	.banner .container-fluid{margin: 0;padding: 0;}
+	.firstnav li{padding:20px 9px;}
+	.navbar-right li a{padding:20px 4px;}
 
 	.navbar-collapse.collapse{
 		display: none !important;
