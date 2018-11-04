@@ -317,6 +317,7 @@ margin: 0;
 	.banner .container-fluid{margin: 0;padding: 0;}
 	.firstnav li{padding:20px 9px;}
 	.navbar-right li a{padding:20px 4px;}
+	.firstnav .dropdown-menu li{padding: 0;}
 
 	.navbar-collapse.collapse{
 		display: none !important;
