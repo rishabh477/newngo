@@ -386,7 +386,7 @@ margin: 0;
 	    display: block !important;
 	}
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) and (min-width: 768px;){
 	.section2-text{text-align: left;margin-left:0;}
 	.image-equal{position: relative;width: 100%;left: 0;top: 50px;}
 	.impact-card p{text-align:left;}
