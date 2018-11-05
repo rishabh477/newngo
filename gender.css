@@ -371,7 +371,19 @@ margin: 0;
 	.banner .container-fluid{margin: 0;padding: 0;}
 }
 
-@media screen and (max-width: 992px){
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+	.section2-text{text-align: left;margin-left:0;}
+	.image-equal{position: relative;width: 100%;left: 0;top: 50px;}
+	.impact-card p{text-align:left;}
+	.greenhead h3{font-size: 2.5vw;}
+	.greenhead p{font-size: 2vw;}
+	.banner .navbar-header{width: 100%;}
+	.banner .container-fluid{margin: 0;padding: 0;}
+	.firstnav li{padding:20px 9px;}
+	.navbar-right li a{padding:20px 4px;}
+	.firstnav .dropdown-menu li{padding: 0;}
+
 	.navbar-collapse.collapse{
 		display: none !important;
 	}
@@ -385,18 +397,7 @@ margin: 0;
 	.navbar-header .collapse, .navbar-toggle {
 	    display: block !important;
 	}
-}
-@media screen and (max-width: 992px) and (min-width: 768px;){
-	.section2-text{text-align: left;margin-left:0;}
-	.image-equal{position: relative;width: 100%;left: 0;top: 50px;}
-	.impact-card p{text-align:left;}
-	.greenhead h3{font-size: 2.5vw;}
-	.greenhead p{font-size: 2vw;}
-	.navbar-header{width: 100%;}
-	.banner .container-fluid{margin: 0;padding: 0;}
-	.firstnav li{padding:20px 9px;}
-	.navbar-right li a{padding:20px 4px;}
-	.firstnav .dropdown-menu li{padding: 0;}
+
 }
 @media screen and (max-width: 768px){
 	.formsection input[type=text],input[type=email]{margin-top: 20px;margin-left:0;}
