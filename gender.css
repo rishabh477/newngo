@@ -58,9 +58,14 @@
 	background-color:#ce0058;
 	color: white;
 }
+button.btn.dropdown-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
+/*
 .banner .firstnav li:hover .dropdown-menu{
 	display: block;
-}
+}*/
 .navbar-toggle{
 	background-color:#ce0058; 
 }
@@ -402,4 +407,13 @@ margin: 0;
 @media screen and (max-width: 500px){
 	.greenhead h3{font-size: 3.5vw;}
 	.greenhead p{font-size: 3vw;}
+}
+@media (max-width: 767px){
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: left;
+    top: 100%;
+    margin-top: 22px;
+	}
+.navbar-nav .open .dropdown-menu>li>a {padding: 16px 16px;}
 }
